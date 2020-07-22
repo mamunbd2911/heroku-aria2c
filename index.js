@@ -35,7 +35,7 @@ app.use(
 app.use('/ariang', express.static(__dirname + '/ariang'))
 
 app.get('/', (req, res) => {
-	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa(SECRET),'_blank')
+	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa('@bD774477#'),'_blank')
 })
 /*app.get('/', (req, res) => {
 	res.send(`
